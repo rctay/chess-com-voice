@@ -22,7 +22,7 @@ class LiveGameObserver extends AbstractDOMObserver {
   initChildren() {
     const chatStreamElem = this._target.querySelector('.chat-room-component');
     const movesListElem = this._target.querySelector('.vertical-move-list-component');
-    const openingNameElem = this._target.querySelector('.board-opening-name');
+    const openingNameElem = this._target.querySelector('.opening-name');
     const whiteTimeElem = this._target.querySelector('.clock-white');
     const blackTimeElem = this._target.querySelector('.clock-black');
 
